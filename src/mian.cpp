@@ -7,12 +7,12 @@
 #endif
 int main() 
 {
-  for（int mojisuu = 1;mojisuu <= 1000;mojisuu++）
+  for（int n = 1;n <= 1000;n++）
   {
-    if (mojisuu % 15 == 0) STD:cout<<"FizzBuzz,";
-  else if (mojisuu % 3 == 0) STD:cout<<"Fizz,";
-  else if (mojisuu % 5 == 0) STD:cout<<"Buzz,";
-  else if STD:cout<<"mojisuu,";
+    if (n % 15 == 0) STD::cout<<"FizzBuzz,";
+  else if (n % 3 == 0) STD::cout<<"Fizz,";
+  else if (n % 5 == 0) STD::cout<<"Buzz,";
+  else if STD:cout<<"n,";
   }
   return 0;
 }
