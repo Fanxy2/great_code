@@ -6,8 +6,12 @@
 #endif
 int main() {
   char mojiretsu[1000];
-  int mojisuu = 0;
-   while (mojisuu++ < 1000)
-    sprintf(mojiretsu, "%d", mojisuu), 
-    printf("%s, ", mojisuu % 15 ? mojisuu % 3 ? mojisuu % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz"); 
-   system("PAUSE"); }
+  for（int mojisuu = 1；mojisuu <=1000;mojisuu++）
+ swtich(mojisuu){
+case(mojisuu%15 == 0):cout<<“FizzBuzz”<<“,”;break;
+case(mojisuu%3 == 0):cout<<“Fizz”<<“,”;break;
+case(mojisuu%5 == 0):cout<<“Buzz”<<“,”;break;
+  default:cout<<n<<“,”;break;
+ }
+  return 0;
+}
