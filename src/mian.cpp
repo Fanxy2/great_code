@@ -9,10 +9,10 @@ int main()
 {
   for（int n = 1;n <= 1000;n++）
   {
-    if (n % 15 == 0) STD::cout<<"FizzBuzz,";
-  else if (n % 3 == 0) STD::cout<<"Fizz,";
-  else if (n % 5 == 0) STD::cout<<"Buzz,";
-  else if STD:cout<<"n,";
+    if (n % 15 == 0) std::cout<<"FizzBuzz,";
+  else if (n % 3 == 0) std::cout<<"Fizz,";
+  else if (n % 5 == 0) std::cout<<"Buzz,";
+  else if std::cout<<"n,";
   }
   return 0;
 }
