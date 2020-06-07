@@ -7,7 +7,8 @@
 int main() {
   char mojiretsu[1000];
   for（int mojisuu = 1；mojisuu <=1000;mojisuu++）
-if (mojisuu%15 == 0) cout<<"FizzBuzz,";
+  {
+    if (mojisuu%15 == 0) cout<<"FizzBuzz,";
   else if (mojisuu%3 == 0) cout<<"Fizz,";
   else if (mojisuu%5 == 0) cout<<"Buzz,";
   else if cout<<"miojisuu,";
