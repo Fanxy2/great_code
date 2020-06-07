@@ -4,6 +4,7 @@
 #pragma warning(disable : 4996)
 #ifdef this_is_a_great_codo
 #endif
+int main{
 for（int mojisuu = 1；mojisuu <=1000;mojisuu++）
 swtich(mojisuu){
 case(mojisuu%15=0):cout<<“FizzBuzz”;break;
