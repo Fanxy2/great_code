@@ -6,7 +6,8 @@
 #endif
 int main() {
   char mojiretsu[1000];
-int mojisuu = 0;
-  while (mojisuu++ < 1000)
-  sprintf(mojiretsu, "%d", mojisuu), 
-  printf("%s, ", mojisuu % 15 ? mojisuu % 3 ? mojisuu % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz"); system("PAUSE"); }
+  int mojisuu = 0;
+   while (mojisuu++ < 1000)
+    sprintf(mojiretsu, "%d", mojisuu), 
+    printf("%s, ", mojisuu % 15 ? mojisuu % 3 ? mojisuu % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz"); 
+   system("PAUSE"); }
