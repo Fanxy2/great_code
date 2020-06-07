@@ -7,11 +7,10 @@
 int main() {
   char mojiretsu[1000];
   for（int mojisuu = 1；mojisuu <=1000;mojisuu++）
- switch(mojisuu){
-case(mojisuu%15 == 0):printf("FizzBuzz, ");break;
-case(mojisuu%3 == 0):printf("Fizz, ");break;
-case(mojisuu%5 == 0):printf("Buzz, ");break;
-  default:printf("mojisuu, ");break;
+if (mojisuu%15 == 0) cout<<"FizzBuzz,";
+  else if (mojisuu%3 == 0) cout<<"Fizz,";
+  else if (mojisuu%5 == 0) cout<<"Buzz,";
+  else if cout<<"miojisuu,";
  }
   return 0;
 }
