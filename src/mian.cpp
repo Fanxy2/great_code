@@ -12,7 +12,6 @@ case(mojisuu%15=0):cout<<“FizzBuzz”;break;
 case(mojisuu%3=0):cout<<“Fizz”;break;
 case(mojisuu%5=0):cout<<“Buzz”;break;
   default:cout<<mojisuu;break;
-  ;
  }
-  return 0
+  return 0;
 }
