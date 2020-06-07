@@ -10,10 +10,10 @@ int main()
   for(int n = 1;n <= 1000;n++)
   {
    switch (n)
-  case (n % 15 == 0) std::cout<<"FizzBuzz,";
-  case (n % 3 == 0) std::cout<<"Fizz,";
-  case (n % 5 == 0) std::cout<<"Buzz,";
-    default std::cout<<n<<",";
+  case (n % 15 == 0) std::cout<<"FizzBuzz,"<<break;
+  case (n % 3 == 0) std::cout<<"Fizz,"<<break;
+  case (n % 5 == 0) std::cout<<"Buzz,"<<break;
+    default std::cout<<n<<","<<break;
   }
   return 0;
 }
