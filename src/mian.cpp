@@ -7,11 +7,11 @@
 int main() {
   char mojiretsu[1000];
   for（int mojisuu = 1；mojisuu <=1000;mojisuu++）
- swtich(mojisuu){
+ switch(mojisuu){
 case(mojisuu%15 == 0):printf("FizzBuzz, ");break;
 case(mojisuu%3 == 0):printf("Fizz, ");break;
 case(mojisuu%5 == 0):printf("Buzz, ");break;
-  default:cout<<n<<“,”;break;
+  default:printf("mojisuu, ");break;
  }
   return 0;
 }
